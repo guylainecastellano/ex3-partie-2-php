@@ -1,5 +1,5 @@
 <?php
-$gender = 'femme';
+$gender = 'gg';
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -14,6 +14,8 @@ $gender = 'femme';
       echo 'c\est un développeur!!!';
     }  elseif ($gender =='femme'){
       echo 'c\est une développeuse!!!';
+    }else {
+      echo 'vous avez fait une erreur';
     }
     ?>
   </p>
